@@ -4,7 +4,7 @@ Geteilte Dateien zum Studiengang Medizininformatik an der Hochschule Trier.
 
 ### Interessante Links
 
-* [Öffentliche Übungsdatenbank für den Datenbanken Kurs von Prof. Dr. Christoph Schmitz](datenbanken/uebungs-datenbank)
+* [Öffentliche Übungsdatenbank für den Datenbanken Kurs von Prof. Dr. Christoph Schmitz](ss-2021/datenbanken/uebungs-datenbank)
 
 ## Sommersemester 2021
 
