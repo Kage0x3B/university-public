@@ -51,12 +51,19 @@ Das kleine Helfer Skript ist nur für Linux gedacht. Auf Windows und Mac müsste
 du dann dir selber raussuchen, wie du Docker zum laufen bekommst und docker-compose installierst.
 
 Auf Linux:
+
 1. Docker installieren: [docs.docker.com/engine/install](https://docs.docker.com/engine/install/#server)
 2. Docker-Compose installieren: [docs.docker.com/compose/install](https://docs.docker.com/compose/install)
 3. `startDatabase.sh` Skript aus diesem Ordner ausführen.
 4. Kurz warten und fertig!
 
-
 ### Irgendwelche Probleme, Fragen, irgendwas anderes?
 
 Ich bin auf Discord als `Kage0x3B#2280` zu erreichen!
+
+### Datenbank Diagramm
+
+![Datenbank Diagramm](uebungs-datenbank/diagramm.svg)
+
+(Da ich die SQL Skripte zum erstellen der Datenbank fast exakt übernommen habe von den vom Professor bereitgestellten,
+fehlen einige Foreign Key Verbindungen)
