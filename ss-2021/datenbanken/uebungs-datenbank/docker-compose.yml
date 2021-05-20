@@ -1,0 +1,16 @@
+version: '3.3'
+services:
+  db:
+    volumes:
+      - uebungsdb:/var/lib/mysql
+    environment:
+     - MYSQL_DATABASE=uebungen
+     - MYSQL_USER=student
+     - MYSQL_RANDOM_ROOT_PASSWORD=yesplease
+     - MYSQL_PASSWORD=SehrSicher
+    restart: unless-stopped
+    ports:
+      - "1337:3306"
+    build: .
+volumes:
+  uebungsdb:
