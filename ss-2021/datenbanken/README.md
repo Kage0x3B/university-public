@@ -21,7 +21,7 @@ Um das zu vereinfachen stelle ich hier eine öffentliche Datenbank Instanz zum b
 | Passwort | `SehrSicher` |
 | Datenbanktyp | MySQL Version 8 |
 
-Wichtig: Der Benutzer student hat Schreibrechte für die Datenbank, in späteren Aufgaben wird ein `CREATE`, `INSERT` usw.
+**Wichtig**: Der Benutzer student hat Schreibrechte für die Datenbank, in späteren Aufgaben wird ein `CREATE`, `INSERT` usw.
 also trotzdem funktionieren, es wäre aber nett, wenn die Namen für eigene Tabellen einen Prefix
 enthalten, wie z.B. `mein_tabellen_name` -> `moritz_mein_tabellen_name`. Nicht vergessen den Prefix im SQL für die
 Abgabe aber wieder zu entfernen.
