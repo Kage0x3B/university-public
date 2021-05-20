@@ -2,12 +2,12 @@
 
 ## Übungsdatenbank
 
-Für einige Übungen wird eine Datenbank mit Beispieldaten gebraucht.
-Da dieses aber in einem komischen SQL Dialekt ist, haben wir auch die Möglichkeit, unsere eigene Datenbank,
-z.B. mit MySQL/MariaDB zu benutzen.
+Für einige Übungen wird eine Datenbank mit Beispieldaten gebraucht. Da dieses aber in einem komischen SQL Dialekt ist,
+haben wir auch die Möglichkeit, unsere eigene Datenbank, z.B. mit MySQL/MariaDB zu benutzen.
 
 Um das zu vereinfachen stelle ich hier eine öffentliche Datenbank Instanz zum bearbeiten der Übungen zur Verfügung.
-(Oder mit Docker lokal installiert kann man auch das Repository klonen und mit `startDatabase.sh` eine eigene Instanz starten)
+(Oder mit Docker lokal installiert kann man auch das Repository klonen und mit `startDatabase.sh` eine eigene Instanz
+starten)
 
 ### Wie benutze ich die Datenbank?
 
@@ -21,10 +21,10 @@ Um das zu vereinfachen stelle ich hier eine öffentliche Datenbank Instanz zum b
 | Passwort | `SehrSicher` |
 | Datenbanktyp | MySQL Version 8 |
 
-**Wichtig**: Der Benutzer student hat Schreibrechte für die Datenbank, in späteren Aufgaben wird ein `CREATE`, `INSERT` usw.
-also trotzdem funktionieren, es wäre aber nett, wenn die Namen für eigene Tabellen einen Prefix
-enthalten, wie z.B. `mein_tabellen_name` -> `moritz_mein_tabellen_name`. Nicht vergessen den Prefix im SQL für die
-Abgabe aber wieder zu entfernen.
+**Wichtig**: Der Benutzer student hat Schreibrechte für die Datenbank, in späteren Aufgaben wird ein `CREATE`, `INSERT`
+usw. also trotzdem funktionieren, es wäre aber nett, wenn die Namen für eigene Tabellen einen Prefix enthalten, wie
+z.B. `mein_tabellen_name` -> `moritz_mein_tabellen_name`. Nicht vergessen den Prefix im SQL für die Abgabe aber wieder
+zu entfernen.
 
 Und, um eine überfüllte Datenbank zu vermeiden, resettet sich die öffentliche Datenbank jeden morgen um 04:00 Uhr.
 
@@ -35,8 +35,8 @@ Und, um eine überfüllte Datenbank zu vermeiden, resettet sich die öffentliche
 3. In das `URL` Feld die JDBC Url einfügen, was automatisch alle Felder richtig eintragen müsste.
 4. Fertig!
 
-(Ich würde DataGrip empfehlen, sehr angenehm zu benutzen,
-hat Unterstützung und Plugins für praktisch alles und ist für Studenten auch kostenlos!)
+(Ich würde DataGrip empfehlen, sehr angenehm zu benutzen, hat Unterstützung und Plugins für praktisch alles und ist für
+Studenten auch kostenlos!)
 
 #### Mit MySQL Workbench
 
@@ -44,6 +44,18 @@ hat Unterstützung und Plugins für praktisch alles und ist für Studenten auch 
 2. Einen guten Namen oben eingeben.
 3. Die Felder manuell mit den Informationen aus der Tabelle oben ausfüllen.
 4. Fertig.
+
+#### Lokal mit Docker
+
+Das kleine Helfer Skript ist nur für Linux gedacht. Auf Windows und Mac müsste es wohl auch funktionieren, dafür musst
+du dann dir selber raussuchen, wie du Docker zum laufen bekommst und docker-compose installierst.
+
+Auf Linux:
+1. Docker installieren: [docs.docker.com/engine/install](https://docs.docker.com/engine/install/#server)
+2. Docker-Compose installieren: [docs.docker.com/compose/install](https://docs.docker.com/compose/install)
+3. `startDatabase.sh` Skript aus diesem Ordner ausführen.
+4. Kurz warten und fertig!
+
 
 ### Irgendwelche Probleme, Fragen, irgendwas anderes?
 
