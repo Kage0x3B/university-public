@@ -11,8 +11,7 @@ Um das zu vereinfachen stelle ich hier eine öffentliche Datenbank Instanz zum b
 
 ### Wie benutze ich die Datenbank?
 
-
-|  | |
+|||
 | ---  | --- |
 | JDBC Url | `jdbc:mysql://uebungsdb.moritz.website:1337/uebungen?user=student&password=SehrSicher` |
 | Host | `uebungsdb.moritz.website` |
